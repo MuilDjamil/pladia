@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en" class="md:scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>PLADIA</title>
+  </head>
+  <body class="font-poppins">
+    <header>
+      <nav
+        class="ease navigation-bar fixed top-0 z-10 w-screen bg-[rgba(255,255,255,.6)] py-6 backdrop-blur-sm duration-300"
+      >
+        <div
+          class="mx-auto flex items-center justify-between gap-12 px-2 sm:w-11/12 sm:px-0 lg:w-[75%]"
+        >
+          <h1 class="text-3xl font-semibold uppercase tracking-wide">PLADIA</h1>
+          <ul class="hidden list-none space-x-3 align-middle md:inline-block">
+            <li class="inline-block">
+              <a href="#blog">Blog</a>
+            </li>
+            <li class="inline-block">
+              <a href="#">Shop</a>
+            </li>
+            <li class="inline-block">
+              <a href="#portofolio">Portofolio</a>
+            </li>
+            <li class="inline-block">
+              <a href="#about">About</a>
+            </li>
+            <li class="inline-block">
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+          <div class="ms-auto hidden space-x-2 text-lg md:inline-block">
+            <a href="#">
+              <iconify-icon icon="ri:facebook-fill"></iconify-icon>
+            </a>
+            <a href="#">
+              <iconify-icon icon="icon-park-outline:dribble"></iconify-icon>
+            </a>
+            <a href="#">
+              <iconify-icon icon="mdi:twitter"></iconify-icon>
+            </a>
+            <a href="#">
+              <iconify-icon icon="mdi:instagram"></iconify-icon>
+            </a>
+          </div>
+          <div
+            id="hamburger-btn"
+            class="flex h-8 w-8 flex-col justify-center gap-2 md:hidden"
+          >
+            <div class="h-1 w-full rounded-full bg-black"></div>
+            <div class="h-1 w-full rounded-full bg-black"></div>
+            <div class="h-1 w-full rounded-full bg-black"></div>
+          </div>
+        </div>
+      </nav>
+
+      <nav
+        id="mobile-nav"
+        class="fixed top-0 z-50 hidden h-screen w-screen origin-left animate-expand-menu bg-white"
+      >
+        <div
+          class="mx-auto flex items-center justify-end px-2 py-6 sm:w-11/12 sm:px-0"
+        >
+          <div class="relative flex h-9 w-9 items-center">
+            <div
+              class="absolute h-1 w-full rotate-45 rounded-full bg-black"
+            ></div>
+            <div
+              class="absolute h-1 w-full -rotate-45 rounded-full bg-black"
+            ></div>
+          </div>
+        </div>
+
+        <ul
+          class="mx-auto list-none px-2 py-3 text-center text-xl sm:w-11/12 sm:px-0"
+        >
+          <li class="py-3">
+            <a href="#blog">Blog</a>
+          </li>
+          <li class="py-3">
+            <a href="#">Shop</a>
+          </li>
+          <li class="py-3">
+            <a href="#portofolio">Portofolio</a>
+          </li>
+          <li class="py-3">
+            <a href="#about">About</a>
+          </li>
+          <li class="py-3">
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+
+        <div
+          class="mx-auto space-x-4 px-2 py-3 text-center text-xl sm:w-11/12 sm:px-0"
+        >
+          <a href="#">
+            <iconify-icon icon="ri:facebook-fill"></iconify-icon>
+          </a>
+          <a href="#">
+            <iconify-icon icon="icon-park-outline:dribble"></iconify-icon>
+          </a>
+          <a href="#">
+            <iconify-icon icon="mdi:twitter"></iconify-icon>
+          </a>
+          <a href="#">
+            <iconify-icon icon="mdi:instagram"></iconify-icon>
+          </a>
+        </div>
+      </nav>
+
+      <div
+        class="mx-auto mt-24 flex h-[550px] gap-3 px-2 sm:w-11/12 sm:gap-7 sm:px-0 lg:w-[75%]"
+      >
+        <div class="h-full basis-[47%]">
+          <div
+            class="h-[95%] w-full bg-[url(assets/hero-profile.webp)] bg-cover bg-center bg-no-repeat"
+          ></div>
+        </div>
+        <div class="h-full basis-[53%]">
+          <div class="flex h-[45%]">
+            <h2
+              class="relative mb-10 mt-auto inline-block text-2xl uppercase tracking-wider before:absolute before:h-[3px] before:w-1/4 before:-translate-y-4 before:bg-black before:content-[''] after:absolute after:h-[3px] after:w-1/4 after:translate-y-4 after:bg-black after:content-[''] min-[400px]:text-3xl sm:text-4xl"
+            >
+              CURATING <br />
+              THE BEST OF <br />
+              THE ORDINARY <br />
+              & EVERYDAY <br />
+            </h2>
+          </div>
+
+          <div class="flex h-[55%] gap-2 sm:gap-5">
+            <div
+              class="h-full w-1/2 bg-[url(assets/hero-indoor_plant.webp)] bg-cover bg-center bg-no-repeat"
+            ></div>
+
+            <div
+              class="h-3/4 w-1/2 bg-[url(assets/hero-leaf.webp)] bg-cover bg-center bg-no-repeat"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <aside class="my-20 px-2">
+      <div
+        class="mx-auto bg-[#2D5A27] py-6 sm:w-11/12 sm:pb-8 sm:pt-6 lg:w-[75%]"
+      >
+        <h2
+          class="mx-auto hidden w-[80%] py-4 text-2xl uppercase tracking-widest text-white min-[400px]:text-3xl sm:block sm:pt-0 sm:text-center"
+        >
+          GET ON THE LIST
+        </h2>
+
+        <div
+          class="flex flex-col items-center justify-center gap-2 sm:flex-row"
+        >
+          <input
+            type="email"
+            placeholder="Email Address"
+            class="w-[85%] p-[11px] sm:w-80"
+          />
+          <button
+            class="inline-block w-[85%] bg-white px-5 py-[11px] font-semibold tracking-wide sm:w-40"
+          >
+            SUBSCRIBE
+          </button>
+        </div>
+      </div>
+    </aside>
+
+    <main>
+      <section
+        id="about"
+        class="mx-auto my-20 scroll-mt-24 px-2 sm:w-11/12 sm:px-0 lg:w-[75%]"
+      >
+        <div class="mx-auto flex flex-col md:w-[85%] md:flex-row">
+          <div class="basis-2/5">
+            <h2 class="text-2xl uppercase tracking-wider min-[400px]:text-3xl">
+              WE'RE PASSIONATE <br />
+              ABOUT SIMPLICITY
+            </h2>
+            <div class="my-7 h-[3px] w-1/3 bg-black"></div>
+            <div class="my-7 h-[3px] w-1/4 bg-black"></div>
+          </div>
+          <div class="basis-3/5">
+            <p>
+              Being passionate about simplicity is an unwavering commitment to
+              stripping away complexity and embracing the elegance of clarity.
+              It's a dedication to finding beauty in the straightforward, to
+              distill ideas and designs to their purest forms. This passion is
+              the driving force behind innovation, guiding us to create
+              user-friendly solutions, efficient processes, and elegant
+              solutions that stand the test of time. In a world often
+              overwhelmed by complexity, simplicity becomes a beacon of
+              inspiration and effectiveness.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="blog"
+        class="mx-auto my-20 flex flex-col gap-5 gap-y-9 px-2 sm:w-11/12 sm:px-0 md:flex-row lg:w-[75%]"
+      >
+        <div class="basis-1/3">
+          <div
+            class="h-[350px] w-full bg-[url(assets/section-goods.webp)] bg-cover bg-center bg-no-repeat"
+          ></div>
+          <div class="relative mb-5 flex justify-center py-10">
+            <div class="absolute bottom-0 w-3/5 bg-gray-200 px-4 py-10">
+              <h2
+                class="relative text-2xl uppercase tracking-wider before:absolute before:h-[3px] before:w-1/4 before:-translate-y-3 before:bg-black before:content-[''] after:absolute after:h-[3px] after:w-1/4 after:translate-y-3 after:bg-black after:content-[''] min-[400px]:text-3xl"
+              >
+                GET THE <br />
+                GOODS <br />
+              </h2>
+            </div>
+          </div>
+          <div>
+            <p>
+              Discover botanical bliss with our exquisite plant collection.
+              Elevate your space with lush foliage, vibrant blooms, and expert
+              care essentials
+            </p>
+          </div>
+        </div>
+
+        <div class="basis-1/3">
+          <div
+            class="h-[350px] w-full bg-[url(assets/section-blog.webp)] bg-cover bg-center bg-no-repeat"
+          ></div>
+          <div class="relative mb-5 flex justify-center py-10">
+            <div class="absolute bottom-0 w-3/5 bg-gray-200 px-4 py-10">
+              <h2
+                class="relative text-2xl uppercase tracking-wider before:absolute before:h-[3px] before:w-1/4 before:-translate-y-3 before:bg-black before:content-[''] after:absolute after:h-[3px] after:w-1/4 after:translate-y-3 after:bg-black after:content-[''] min-[400px]:text-3xl"
+              >
+                READ THE <br />
+                BLOG <br />
+              </h2>
+            </div>
+          </div>
+          <div>
+            <p>
+              Dive into a world of green knowledge. Read the latest tips,
+              trends, and stories about botanical wonders. Start your green
+              journey now
+            </p>
+          </div>
+        </div>
+
+        <div class="basis-1/3">
+          <div
+            class="h-[350px] w-full bg-[url(assets/section-touch.webp)] bg-cover bg-center bg-no-repeat"
+          ></div>
+          <div class="relative mb-5 flex justify-center py-10">
+            <div class="absolute bottom-0 w-3/5 bg-gray-200 px-4 py-10">
+              <h2
+                class="relative text-2xl uppercase tracking-wider before:absolute before:h-[3px] before:w-1/4 before:-translate-y-3 before:bg-black before:content-[''] after:absolute after:h-[3px] after:w-1/4 after:translate-y-3 after:bg-black after:content-[''] min-[400px]:text-3xl"
+              >
+                GET IN <br />
+                TOUCH <br />
+              </h2>
+            </div>
+          </div>
+          <div>
+            <p>
+              For all your botanical needs, reach out to our friendly team.
+              Whether it's plant care or inquiries, we're here to assist you
+              promptly. Connect with us today
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="portofolio"
+        class="mx-auto my-20 px-2 sm:w-11/12 sm:px-0 lg:w-[75%]"
+      >
+        <div
+          class="mx-auto mb-4 h-[450px] w-full bg-[url(assets/hero-profile.webp)] bg-cover bg-center bg-no-repeat md:w-[85%]"
+        ></div>
+        <div
+          class="grid grid-cols-[repeat(2,1fr)] gap-5 md:grid-cols-[repeat(5,1fr)]"
+        >
+          <div
+            class="max aspect-square bg-[url(assets/hero-leaf.webp)] bg-cover bg-center bg-no-repeat"
+          ></div>
+          <div
+            class="aspect-square bg-[url(assets/hero-indoor_plant.webp)] bg-cover bg-center bg-no-repeat"
+          ></div>
+          <div
+            class="aspect-square bg-[url(assets/section-blog.webp)] bg-cover bg-center bg-no-repeat"
+          ></div>
+          <div
+            class="aspect-square bg-[url(assets/section-touch.webp)] bg-cover bg-center bg-no-repeat"
+          ></div>
+          <div class="col-span-2 flex justify-center pt-4 md:col-span-1">
+            <h2
+              class="relative inline-block px-4 text-3xl uppercase tracking-wider before:absolute before:h-[3px] before:w-1/4 before:-translate-y-3 before:bg-black before:content-[''] after:absolute after:h-[3px] after:w-1/4 after:translate-y-3 after:bg-black after:content-['']"
+            >
+              INSTAGRAM WITH US <br />
+            </h2>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer
+      class="mx-auto mt-20 border-t-2 border-solid border-black px-4 py-5 text-center sm:w-11/12 lg:w-[75%]"
+    >
+      <h3 class="mb-5 text-2xl font-semibold uppercase tracking-wide">
+        PLADIA
+      </h3>
+      <p class="uppercase tracking-wide">
+        &#169; MADE BY <a href="https://muildjamil.my.id/">MUIL DJAMIL</a> |
+        <span class="whitespace-nowrap">INSPIRE BY STATION SEVEN</span>
+      </p>
+      <div class="space-x-2 py-3 text-xl">
+        <a href="#">
+          <iconify-icon icon="ri:facebook-fill"></iconify-icon>
+        </a>
+        <a href="#">
+          <iconify-icon icon="icon-park-outline:dribble"></iconify-icon>
+        </a>
+        <a href="#">
+          <iconify-icon icon="mdi:twitter"></iconify-icon>
+        </a>
+        <a href="#">
+          <iconify-icon icon="mdi:instagram"></iconify-icon>
+        </a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
